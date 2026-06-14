@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "speedmod",
+  "version": "1.0.0",
+  "name": "Speed Mod",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.speed.SpeedMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
